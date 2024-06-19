@@ -1,3 +1,62 @@
 html {
-    color: blue;
+    color: #B75B27;
+    font-family: Caveat;
+    font-size: 26px
+}
+
+header {
+    font-family: Raleway;
+    text-align: right;
+
+    li {
+        list-style-type: none;
+        display: inline;
+        color: #B75B27;
+        font-size: 20px;
+        padding: 10px;
+
+        a {
+            text-decoration: none;
+            color: #B75B27;
+
+            :visted {
+                color: #B75B27;
+            }
+        }
+    }
+}
+
+#hero-text {
+    text-align: center;
+    font-family: Raleway;
+
+    h1 {
+        font-size: 100px;
+        font-family: Caveat;
+    }
+}
+
+.btn {
+    background-color: #F0AC86;
+    color: #B75B27;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#home-info {
+    background-color: #8CAA98;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 100px;
+
+    p {
+        text-align: center;
+    }
+
+    h2 {
+        padding-left: 50px;
+        padding-top: 20px;
+
+    }
 }
