@@ -40,7 +40,7 @@ header {
     background-color: #F0AC86;
     color: #B75B27;
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
     font-size: 20px;
 }
 
@@ -52,6 +52,9 @@ header {
 
     p {
         text-align: center;
+        font-family: Raleway;
+        font-size: 20px;
+        padding: 50px;
     }
 
     h2 {
@@ -59,4 +62,8 @@ header {
         padding-top: 20px;
 
     }
+}
+
+#logo {
+    text-align: center;
 }
